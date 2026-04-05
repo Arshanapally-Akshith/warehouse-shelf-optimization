@@ -78,11 +78,11 @@ This project aims to:
 * Stable convergence observed with optimized cooling rate
 * Improved clustering of frequently co-purchased items
 
-* | Method              | Cost | Improvement |
-  | ------------------- | ---- | ----------- |
-  | Initial             | XXXX | —           |
-  | Greedy              | XXXX | XX%         |
-  | Simulated Annealing | XXXX | XX%         |
+* | Method              | Cost  | Improvement |
+  | ------------------- | ----- | ----------- |
+  | Initial             | 18655 | —           |
+  | Greedy              | 13848 | 25.77%         |
+  | Simulated Annealing | 13940 | 25.27%         |
 
 
 ---
