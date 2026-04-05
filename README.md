@@ -28,4 +28,15 @@ Greedy converges faster but gets stuck, while SA explores better solutions.
 ## 📸 Demo! 
 ![demo](https://github.com/user-attachments/assets/558862e0-6c28-4f2c-bb21-97e80ce4d8a2)
 
+### 📈 Convergence Graph
+![Convergence](images/convergence.png)
 
+---
+
+### 🧊 Layout Visualization
+![Layout](images/layout.png)
+
+---
+
+### 🔥 Co-occurrence Heatmap
+![Heatmap](images/heatmap.png)
