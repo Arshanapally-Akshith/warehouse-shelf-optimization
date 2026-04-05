@@ -111,7 +111,7 @@ This project aims to:
 
 ## 👨‍💻 Author
 
-**Arshanapally Akshi**
+**Arshanapally Akshith**
 
 ---
 
