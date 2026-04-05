@@ -81,9 +81,27 @@ This project aims to:
 * | Method              | Cost  | Improvement |
   | ------------------- | ----- | ----------- |
   | Initial             | 18655 | —           |
-  | Greedy              | 13848 | 25.77%         |
-  | Simulated Annealing | 13940 | 25.27%         |
+  | Greedy              | 13848 | 25.77%      |
+  | Simulated Annealing | 13940 | 25.27%      |
 
+
+---
+## 📸 Sample Outputs
+
+### 🔥 Heatmap Visualization
+
+Before vs after item placement showing improved clustering of frequently accessed products, reducing travel distance.
+![Heatmap](images/heatmap.png)
+
+### 📉 Convergence Graph
+
+Simulated Annealing optimization showing steady reduction in retrieval cost over iterations.
+![Convergence](images/convergence.png)
+
+### 🗺️ Optimized Layout
+
+Final warehouse layout with constraint-aware zoning (frozen, fragile, normal) and improved item positioning.
+![Layout](images/layout.png)
 
 ---
 
