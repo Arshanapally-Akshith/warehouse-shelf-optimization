@@ -1,4 +1,7 @@
 # warehouse-shelf-optimization
+![Python](https://img.shields.io/badge/python-3.10-blue)
+![Optimization](https://img.shields.io/badge/AI-Optimization-green)
+![Status](https://img.shields.io/badge/status-Completed-brightgreen)
 AI-based warehouse shelf optimization using Simulated Annealing with constraint-aware placement and visualization
 
 # 📦 Warehouse Shelf Optimization System
@@ -73,6 +76,15 @@ This project aims to:
 
 * Total retrieval cost
 * Convergence over iterations
+
+---
+
+## ⚙️ How It Works
+
+* **Co-occurrence Matrix:** Identifies items frequently purchased together to improve placement proximity.
+* **Simulated Annealing:** Optimizes item positions by exploring the solution space and avoiding local minima.
+* **Constraint Handling:** Ensures items are placed in appropriate zones (frozen, fragile, normal).
+* **Cost Function:** Minimizes retrieval distance based on item frequency and location.
 
 ---
 
