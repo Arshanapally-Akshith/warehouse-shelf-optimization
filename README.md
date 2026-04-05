@@ -6,6 +6,10 @@ AI-based warehouse shelf optimization using Simulated Annealing with constraint-
 # 📦 Warehouse Shelf Optimization System
 Optimized warehouse item placement using AI-based Simulated Annealing, reducing retrieval cost by 27% through co-occurrence-aware positioning and constraint-based zoning.
 
+🔗 Live Demo
+
+👉 https://warehouse-shelf-optimization.streamlit.app/
+
 ![Demo](images/demo.gif)
 
 ## 🚀 Overview
