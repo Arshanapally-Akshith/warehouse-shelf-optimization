@@ -13,9 +13,15 @@ Optimize warehouse shelf placement to:
 - Greedy algorithm (local search baseline)
 - Co-occurrence matrix to model product relationships
 
-## ⚡ Key Innovation
-Implemented **incremental delta cost update (O(n))**
-instead of recomputing full cost (O(n²)).
+## ⚡ Key Optimization: Delta Cost Update
+
+Instead of recomputing the total cost (O(n²)) after every swap,  
+this project uses an **incremental delta cost update (O(n))**.
+
+Only the cost contributions of swapped items are recalculated,  
+making the simulated annealing significantly faster and scalable.
+
+This approach is commonly used in real-world optimization systems.
 
 ## 📊 Results
 - Simulated Annealing consistently outperforms Greedy
