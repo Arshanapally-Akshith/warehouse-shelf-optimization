@@ -1,9 +1,8 @@
 # warehouse-shelf-optimization
+AI-based warehouse shelf optimization using Simulated Annealing with constraint-aware placement and visualization
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 ![Optimization](https://img.shields.io/badge/AI-Optimization-green)
 ![Status](https://img.shields.io/badge/status-Completed-brightgreen)
-AI-based warehouse shelf optimization using Simulated Annealing with constraint-aware placement and visualization
-
 # 📦 Warehouse Shelf Optimization System
 Optimized warehouse item placement using AI-based Simulated Annealing, reducing retrieval cost by 27% through co-occurrence-aware positioning and constraint-based zoning.
 
