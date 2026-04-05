@@ -25,5 +25,6 @@ instead of recomputing full cost (O(n²)).
 ## 🎯 Key Insight
 Greedy converges faster but gets stuck, while SA explores better solutions.
 
-## 📸 Demo![demo](https://github.com/user-attachments/assets/a40f1c84-cfa3-4d9c-9e53-754548127e60)
+## 📸 Demo!
+[demo](https://github.com/user-attachments/assets/a40f1c84-cfa3-4d9c-9e53-754548127e60)
 
