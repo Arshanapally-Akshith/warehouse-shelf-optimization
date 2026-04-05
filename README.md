@@ -8,7 +8,7 @@ Optimized warehouse item placement using AI-based Simulated Annealing, reducing 
 
 🔗 Live Demo
 
-👉 https://warehouse-shelf-optimization.streamlit.app/
+👉 [https://warehouse-shelf-optimization.streamlit.app/]
 
 ![Demo](images/demo.gif)
 
