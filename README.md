@@ -149,7 +149,7 @@ order_id,product_id
 ## 🚀 How to Run Locally
 
 ```
-git clone https://github.com/your-username/warehouse-shelf-optimization.git
+git clone https://github.com/Arshanapally-Akshith/warehouse-shelf-optimization.git
 cd warehouse-shelf-optimization
 pip install -r requirements.txt
 streamlit run app.py
