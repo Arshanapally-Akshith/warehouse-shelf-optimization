@@ -178,10 +178,11 @@ streamlit run app.py
 
 ## 👨‍💻 Author
 
-Built as a portfolio project demonstrating:
+**Arshanapally Akshith**
 
-* Optimization algorithms
-* Performance engineering
-* Data-driven system design
+- Optimization & AI Enthusiast  
+- Built this project to demonstrate algorithmic thinking and performance engineering  
+
+🔗 GitHub: https://github.com/Arshanapally-Akshith
 
 ---
