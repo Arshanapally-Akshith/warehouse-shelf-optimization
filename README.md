@@ -1,8 +1,9 @@
-[![Live App](https://img.shields.io/badge/Streamlit-Live%20Demo-green)](https://warehouse-shelf-optimization.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-green)](https://warehouse-shelf-optimization.streamlit.app/)
+
 # 📦 Warehouse Shelf Optimization
 
-## 🚀 Live Demo
-https://warehouse-shelf-optimization.streamlit.app/
+🚀 Live Demo  
+👉 https://warehouse-shelf-optimization.streamlit.app/
 
 ## 📌 Problem Statement
 Optimize warehouse shelf placement to:
