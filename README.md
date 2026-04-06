@@ -1,3 +1,4 @@
+[![Live App](https://img.shields.io/badge/Streamlit-Live%20Demo-green)](https://warehouse-shelf-optimization.streamlit.app/)
 # 📦 Warehouse Shelf Optimization
 
 ## 🚀 Live Demo
