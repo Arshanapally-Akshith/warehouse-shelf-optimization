@@ -54,26 +54,38 @@ Instead of recomputing total cost in **O(n²)** after every swap:
 
 ---
 
-## 📊 Results
+## 📊 Results (Real Dataset Evaluation)
 
-| Method              | Cost                  | Improvement |
-| ------------------- | --------------------- | ----------- |
-| Initial Layout      | Baseline              | —           |
-| Greedy              | Reduced               | Moderate    |
-| Simulated Annealing | Significantly Reduced | High        |
+The algorithms were evaluated on real market-basket data using cost reduction, average order cost, and co-occurrence distance metrics.
 
-* Simulated Annealing consistently outperforms Greedy
-* Greedy converges quickly but gets stuck in local minima
-* SA explores better solutions and achieves higher cost reduction
+### 🔢 Summary
+
+| Metric                     | Initial | Greedy     | Simulated Annealing |
+| -------------------------- | ------- | ---------- | ------------------- |
+| Total Cost                 | 18655   | 13848      | 13940               |
+| Improvement (%)            | —       | **25.77%** | **25.27%**          |
+| Avg Order Cost             | 46.64   | 34.31      | **34.17**           |
+| Avg Co-occurrence Distance | 11.03   | **8.26**   | 8.40                |
 
 ---
 
-## 🧠 Key Insights
+### 📌 Key Observations
 
-* Greedy is fast but short-sighted
-* Simulated Annealing balances exploration and exploitation
-* Delta cost optimization is critical for efficiency
-* Heatmaps provide visual validation of optimization quality
+* Both **Greedy and Simulated Annealing achieve ~25% cost reduction**
+* **Greedy slightly outperforms SA in this run** due to faster convergence
+* **Simulated Annealing achieves the lowest average order cost**, indicating better overall layout quality
+* SA explores more configurations, while Greedy quickly settles into a local optimum
+
+---
+
+### 🧠 Interpretation
+
+* Greedy performs well when the solution landscape is smooth
+* Simulated Annealing is more robust across different datasets
+* Performance can vary depending on initialization and parameters
+
+> This highlights the importance of comparing both local and global optimization strategies.
+
 
 ---
 
