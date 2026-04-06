@@ -1,4 +1,3 @@
-
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-green)](https://warehouse-shelf-optimization.streamlit.app/)
 
 # 📦 Warehouse Shelf Optimization
@@ -36,7 +35,7 @@ Instead of recomputing total cost in **O(n²)** after every swap:
 * Only recalculates cost contributions of affected items
 * Significantly improves performance during optimization
 
-> This technique is widely used in real-world optimization systems.
+> Validated correctness by matching incremental updates with full cost recomputation.
 
 ---
 
@@ -56,9 +55,7 @@ Instead of recomputing total cost in **O(n²)** after every swap:
 
 ## 📊 Results (Real Dataset Evaluation)
 
-The algorithms were evaluated on real market-basket data using cost reduction, average order cost, and co-occurrence distance metrics.
-
-### 🔢 Summary
+> Results are from a representative run on real-world transaction data.
 
 | Metric                     | Initial | Greedy     | Simulated Annealing |
 | -------------------------- | ------- | ---------- | ------------------- |
@@ -69,23 +66,30 @@ The algorithms were evaluated on real market-basket data using cost reduction, a
 
 ---
 
-### 📌 Key Observations
+## 🧠 Key Insights
 
-* Both **Greedy and Simulated Annealing achieve ~25% cost reduction**
-* **Greedy slightly outperforms SA in this run** due to faster convergence
-* **Simulated Annealing achieves the lowest average order cost**, indicating better overall layout quality
-* SA explores more configurations, while Greedy quickly settles into a local optimum
+* Greedy is fast but can get stuck in local minima
+* Simulated Annealing explores better but depends on cooling schedule
+* In smoother landscapes, Greedy can perform comparably to SA
+* Delta cost optimization is critical for efficiency
 
 ---
 
-### 🧠 Interpretation
+## ⚙️ Complexity Analysis
 
-* Greedy performs well when the solution landscape is smooth
-* Simulated Annealing is more robust across different datasets
-* Performance can vary depending on initialization and parameters
+* Full cost computation: **O(n²)**
+* Delta cost update: **O(n)**
+* Simulated Annealing runtime: **O(iterations × n)**
 
-> This highlights the importance of comparing both local and global optimization strategies.
+This significantly improves scalability for larger warehouse layouts.
 
+---
+
+## ⚠️ Limitations
+
+* Performance depends on cooling schedule
+* Greedy may perform similarly on simpler datasets
+* Assumes static demand patterns
 
 ---
 
@@ -131,7 +135,7 @@ order_id,product_id
 2,butter
 ```
 
-* Data is converted into a **co-occurrence matrix**
+* Automatically converted into a co-occurrence matrix
 * Also supports synthetic data for testing
 
 ---
@@ -172,15 +176,6 @@ streamlit run app.py
 
 ---
 
-## 🚀 Future Improvements
-
-* Multi-floor warehouse optimization
-* Demand forecasting integration
-* Reinforcement learning-based placement
-* Real-time warehouse simulation
-
----
-
 ## 👨‍💻 Author
 
 Built as a portfolio project demonstrating:
@@ -190,4 +185,3 @@ Built as a portfolio project demonstrating:
 * Data-driven system design
 
 ---
-
