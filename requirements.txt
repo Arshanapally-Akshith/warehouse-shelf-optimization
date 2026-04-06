@@ -1,4 +1,4 @@
-streamlit
-numpy
-pandas
-matplotlib
+streamlit>=1.30
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.7
